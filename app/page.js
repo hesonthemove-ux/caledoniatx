@@ -1,31 +1,58 @@
 export default function Home() {
   return (
     <main>
-      <h1>Caledonia TX</h1>
 
-      <section style={{ marginBottom: "40px" }}>
-        <h2>Digital Multiplex Operator</h2>
-        <p>
-          Independent ownership and operation of digital broadcast
-          multiplex infrastructure across the United Kingdom.
+      {/* Hero */}
+      <section style={{ marginBottom: "60px" }}>
+        <h1 style={{ fontSize: "42px", marginBottom: "20px" }}>
+          Caledonia TX
+        </h1>
+        <p style={{ fontSize: "18px", maxWidth: "700px" }}>
+          Independent digital multiplex ownership and transmission
+          infrastructure supporting broadcast carriage across the United Kingdom.
         </p>
       </section>
 
-      <section style={{ marginBottom: "40px" }}>
+      {/* Carriage */}
+      <section style={{ marginBottom: "50px" }}>
+        <h2>Multiplex Capacity & Carriage</h2>
+        <p style={{ maxWidth: "700px" }}>
+          Provision of digital multiplex capacity for licensed broadcasters,
+          platform operators, and content providers requiring reliable
+          terrestrial transmission infrastructure.
+        </p>
+      </section>
+
+      {/* Infrastructure */}
+      <section style={{ marginBottom: "50px" }}>
         <h2>Transmission Infrastructure</h2>
-        <p>
-          End-to-end transmission solutions including site deployment,
-          signal distribution, and long-term infrastructure management.
+        <p style={{ maxWidth: "700px" }}>
+          Ownership and operation of transmission assets including site
+          management, signal distribution, and engineering oversight.
+          Infrastructure designed for long-term resilience and technical compliance.
         </p>
       </section>
 
-      <section>
-        <h2>Broadcast Solutions</h2>
-        <p>
-          Specialist support for broadcasters, content platforms,
-          and network operators requiring reliable digital carriage.
+      {/* Compliance */}
+      <section style={{ marginBottom: "50px" }}>
+        <h2>Regulatory & Technical Compliance</h2>
+        <p style={{ maxWidth: "700px" }}>
+          Operations aligned with UK broadcast regulatory frameworks,
+          maintaining technical standards required for licensed multiplex services.
         </p>
       </section>
+
+      {/* Contact */}
+      <section>
+        <h2>Commercial Enquiries</h2>
+        <p>
+          For carriage discussions or infrastructure partnerships:
+        </p>
+        <p style={{ fontWeight: "bold" }}>
+          info@caledoniatx.co.uk
+        </p>
+      </section>
+
     </main>
   )
 }
